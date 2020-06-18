@@ -7,6 +7,15 @@ var userClickedPattern=[];
 var started=false;
 var level=0;
 
+
+$(document).click(function(){
+  if(!started){
+    nextSequence();
+    $("#level-title").text("Level "+level);
+    started=true;
+  }
+});
+
 $(document).keypress(function(){
   if(!started){
     nextSequence();
