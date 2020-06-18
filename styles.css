@@ -53,7 +53,19 @@ body {
 }
 
 footer {
+  padding-top: 50px;
   text-align: center;
   color: #DBEDF3;
+  font-family: sans-serif;
+}
+.insta1{
+  padding-left: 50px;
+  text-align: left;
+  color:  #47c5bb;
+  font-family: sans-serif;
+}
+.insta2{
+  text-align: left;
+  color: #47c5bb;
   font-family: sans-serif;
 }
